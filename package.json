@@ -1,0 +1,22 @@
+{
+  "name": "puro-esencial",
+  "version": "1.0.0",
+  "description": "entrega sass",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hernan-ringo/Entrega-Sass-2.git"
+  },
+  "author": "Hernan Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hernan-ringo/Entrega-Sass-2/issues"
+  },
+  "homepage": "https://github.com/Hernan-ringo/Entrega-Sass-2#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

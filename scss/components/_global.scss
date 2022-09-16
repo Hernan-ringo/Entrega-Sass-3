@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    background-image: url('/assets/images/PHOTO-2022-08-31-08-45-47.jpg');
+    background-attachment: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    color: gray;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .whatsapp {
+    position: relative;
+    bottom: 25px;
+    left: 2,5%;
+}
+
+.instagram {
+    position: relative;
+    bottom: 25px;
+    left: 2,5%;
+}
+.card__sticky {
+    display: inline;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+iframe {
+    /* margin-left: 25px; */
+    /* margin-bottom: 25px; */
+    margin-top: 20px;
+}
+
+footer {
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+}
