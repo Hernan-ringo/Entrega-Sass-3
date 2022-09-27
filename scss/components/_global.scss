@@ -58,3 +58,14 @@ footer {
     padding-bottom: 25px;
     margin-left: 25px;
 }
+
+.continer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@mixin templateGrid($columns) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: 50px;  
+}

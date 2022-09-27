@@ -27,11 +27,13 @@
 }
 
 .courses__content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    max-width: 800px;
-    margin: 0 auto;
+    @extend .container;
+    @include templateGrid;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // gap: 50px;
+    // max-width: 800px;
+    // margin: 0 auto;
 }
 .card {
     background-color: lightgoldenrodyellow;
