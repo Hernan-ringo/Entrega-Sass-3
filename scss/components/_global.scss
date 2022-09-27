@@ -52,14 +52,14 @@ iframe {
     margin-top: 20px;
 }
 
-footer {
-    display: inline-block;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-left: 25px;
-}
+// footer {
+//     display: inline-block;
+//     padding-top: 25px;
+//     padding-bottom: 25px;
+//     margin-left: 25px;
+// }
 
-.continer {
+.container {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -67,5 +67,14 @@ footer {
 @mixin templateGrid($columns) {
     display: grid;
     grid-template-columns: repeat($columns, 1fr);
-    gap: 50px;  
+    gap: 50px;
+}
+
+@mixin templateFlex($valueJustify, $alignItems) {
+    display: flex;
+    justify-content: $valueJustify;
+
+    @if ($alignItems == true) {
+        align-items: center;
+    }    
 }

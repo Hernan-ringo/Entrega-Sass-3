@@ -28,7 +28,7 @@
 
 .courses__content{
     @extend .container;
-    @include templateGrid;
+    @include templateGrid(3);
     // display: grid;
     // grid-template-columns: repeat(3, 1fr);
     // gap: 50px;

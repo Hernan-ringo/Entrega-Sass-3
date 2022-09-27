@@ -44,11 +44,9 @@ iframe {
   /* margin-bottom: 25px; */
   margin-top: 20px; }
 
-footer {
-  display: inline-block;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-left: 25px; }
+.container, .header__content, .courses__content {
+  max-width: 800px;
+  margin: 0 auto; }
 
 .header {
   position: sticky;
@@ -59,9 +57,7 @@ footer {
   .header__content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto; }
+    align-items: center; }
     .header__content-tittle {
       color: grey; }
     .header__content-navbar {
@@ -100,9 +96,7 @@ footer {
 .courses__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
-  max-width: 800px;
-  margin: 0 auto; }
+  gap: 50px; }
 
 .card {
   background-color: lightgoldenrodyellow;
@@ -139,3 +133,65 @@ footer {
 @media (max-widht: 550px) {
   .courses__content {
     grid-template-columns: repeat(2, 1fr); } }
+
+.footer {
+  background-color: salmon;
+  color: white;
+  padding: 60px 20px; }
+  .footer__content {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; }
+    .footer__content h4 {
+      color: green;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 20px; }
+    .footer__content-list li {
+      margin: 10px 0; }
+    .footer__content-list a {
+      color: white;
+      transition: all 0.3s; }
+      .footer__content-list a:hover {
+        color: green; }
+    .footer__content-list li {
+      max-width: 10px 0; }
+    .footer__content-list a {
+      color: white;
+      transition: all 0.3s; }
+      .footer__content-list a :hover {
+        color: green; }
+  .footer__rrss {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px; }
+    .footer__rrss .rs-twitter {
+      color: white;
+      font-size: 30px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-twitterhover {
+        color: green; }
+    .footer__rrss .rs-facebook {
+      color: white;
+      font-size: 30px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-facebookhover {
+        color: blue; }
+    .footer__rrss .rs-instagram {
+      color: white;
+      font-size: 30px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-instagramhover {
+        color: brown; }
+    .footer__rrss .rs-tiktok {
+      color: white;
+      font-size: 30px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-tiktokhover {
+        color: black; }
+  .footer__copy {
+    margin-top: 40px;
+    text-align: center;
+    color: aquamarine; }

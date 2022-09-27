@@ -1,0 +1,79 @@
+.footer {
+    background-color: $bgDark;
+    color: $fontLight;
+    padding: 60px 20px;
+
+    &__content {
+        // @extend .container;
+        max-width: 800px;
+        margin: auto;
+        @include templateGrid(3);
+
+            h4 {
+            color: $primary;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            }
+
+            &-list {
+                li {
+                  margin: 10px 0;
+                }
+          
+                a {
+                  color: $fontLight;
+                  transition: $transition;
+          
+                  &:hover {
+                    color: $primary;
+                  }
+                }
+                li {
+                    max-width: 10px 0;
+                }
+
+                a {
+                    color: $fontLight;
+                    transition: $transition;
+
+                    & :hover {
+                        color: $primary;
+                    }
+            }
+    }
+
+}
+
+&__rrss {
+    @include templateFlex(space-evenly, false);
+    margin-top: 30px;
+
+    $iconSocialMedia: (
+        twitter: $primary,
+        facebook: blue,
+        instagram: brown,
+        tiktok: black,
+
+    );
+
+    @each $nameSocialMedia, $colorIcon in $iconSocialMedia {
+        .rs-#{$nameSocialMedia} {
+            color: $fontLight;
+            font-size: 30px;
+            transition: $transition;
+
+            &hover {
+                color: $colorIcon;
+            }
+        }
+    }
+
+}
+
+    &__copy {
+        margin-top: 40px;
+        text-align: center;
+        color: aquamarine;
+    }
+  }
