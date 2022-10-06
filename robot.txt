@@ -1,0 +1,3 @@
+user_agent: *
+Allow: /
+Sitemap: https://github.com/Hernan-ringo/Entrega-Sass-3

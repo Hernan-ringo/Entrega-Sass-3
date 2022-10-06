@@ -7,7 +7,7 @@
         // @extend .container;
         max-width: 800px;
         margin: auto;
-        @include templateGrid(3);
+        @include templateGrid(2);
 
             h4 {
             color: $primary;

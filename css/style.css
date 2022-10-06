@@ -145,7 +145,7 @@ iframe {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px; }
     .footer__content h4 {
-      color: green;
+      color: white;
       margin-bottom: 20px;
       font-weight: bold;
       font-size: 20px; }
@@ -155,7 +155,7 @@ iframe {
       color: white;
       transition: all 0.3s; }
       .footer__content-list a:hover {
-        color: green; }
+        color: lightgray; }
     .footer__content-list li {
       max-width: 10px 0; }
     .footer__content-list a {
